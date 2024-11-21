@@ -1,0 +1,5 @@
+# secrets: "{{ lookup('community.hashi_vault.hashi_vault', 'secret=infra-secrets/data/elk token={{vault_token}} url=https://vault.expense.internal:8200 validate_certs=False') }}"
+
+url: "https://github.com/actions/runner/releases/download/v2.320.0/actions-runner-linux-x64-2.320.0.tar.gz"
+defuser: "ec2-user"
+token: "AN2LH56DZVIISPHDXTMHG7DHH2SB2"
